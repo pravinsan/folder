@@ -1,0 +1,3 @@
+S.No Name    RegNo  Course
+1    Pravin  IGT001 C,C++
+2    Senthil IGT002 Dotnet

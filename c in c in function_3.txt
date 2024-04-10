@@ -1,0 +1,12 @@
+#include <stdio.h>
+ 
+ int p(int x)
+ {
+     return 5 + x;
+ }
+
+int main() 
+{
+  printf("the resalt is : %d",p(7));
+  return 0;
+}

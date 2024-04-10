@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main()
+{  int month ;
+   printf("enter the number of day: ");
+   switch(month)
+  {
+      case 1:
+      printf("January");
+      break;
+      
+      case 2:
+      printf("February");
+      break;
+      
+      case 3:
+      printf("march");
+      break;
+      
+      case 4:
+      printf("April");
+      break;
+      
+      case 5:
+      printf("may");
+      break;
+      
+      case 6:
+      printf("June");
+      break;
+      
+      case 7:
+      printf("july");
+      break;
+      default:
+      printf("invalid number.type a day between 1 and 7. ");
+      
+  }
+   
+   return 0;
+}

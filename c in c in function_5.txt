@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+int p(int x,int y)
+{
+    return x*y;
+}
+
+int main()
+{
+     int resalt = p(4,3);
+     printf("the resalt is : %d",resalt);
+     
+    return 0;
+}

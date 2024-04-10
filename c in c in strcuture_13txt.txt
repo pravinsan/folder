@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+
+struct mystructure 
+{
+ int   myNum;
+ char    myletter;
+ char   mystring[20];
+};
+
+int main()
+{
+    struct mystructure s1 = {14,'p',"pravin"};
+    
+    s1.myNum = 13;
+    s1.myletter = 'r';
+    s1=s1;
+    
+    printf("%d %c\n %s\n",s1.myNum,s1.myletter,s1.mystring);
+
+    return 0;
+}

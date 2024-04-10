@@ -1,0 +1,26 @@
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+   FILE * t,* p;
+    
+    t = fopen("pravin.txt","a");
+    fprintf(t, "\nwelcome");
+    fclose(t);
+
+    p = fopen("senthil.txt","r");  
+    
+    char name[100];
+    
+    while(fgets(name,100,p))
+      {
+          printf("%s",name);
+      }
+      
+      fclose(p);
+    
+    
+    return 0;
+}

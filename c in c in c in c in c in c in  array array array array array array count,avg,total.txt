@@ -1,0 +1,34 @@
+
+#include <stdio.h>
+
+int main()
+{   
+    int number[] = {12,32,37,19,18};
+    int count,total;
+    float avg;
+   for(int i=0;i<5;i++)
+  
+  
+     {
+         if(number[i]%2==0)
+           {
+               total+=number[i];
+               count++;
+               avg= total/count;
+               printf("\n odd : %d",number[i]);
+               
+           }
+           else
+           {
+                total+=number[i];
+               count++;
+               avg= total/count;
+             printf("\n even: %d",number[i]);
+           }   
+            
+        
+     }printf("\n %d \n %d \n %.1lf",count,total,avg);
+    
+ 
+    return 0;
+}

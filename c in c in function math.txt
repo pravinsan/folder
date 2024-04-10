@@ -1,0 +1,20 @@
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+   printf("%f",sqrt(100));
+   printf("\n%f",sqrt(49));
+   .
+   .
+   .
+   .
+   .
+   .
+   .
+   .
+   
+
+    return 0;
+}

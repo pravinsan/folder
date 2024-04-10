@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+
+int main()
+{ int x;
+  int y;
+  scanf("%d",&x);
+  scanf("%d",&y);
+  switch(x)
+ {
+     case 'A':
+     printf("number is %d",x);
+     break;
+     
+     
+     
+ } switch(y)
+ {
+     case 'B':
+     printf("number is %d",y);
+     break;
+    
+ }
+    return 0;
+}

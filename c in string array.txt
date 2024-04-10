@@ -1,0 +1,9 @@
+
+#include <stdio.h>
+
+int main()
+{
+   char name[10] = "pravin";
+   printf("%lu",sizeof(name));
+    return 0;
+}

@@ -1,0 +1,20 @@
+
+#include <stdio.h>
+
+void p(int a)
+{
+    if(a<=10)
+      {
+          printf("%d",a);
+          a++;
+          p(a);
+      }
+}
+
+int main()
+{
+  int x=1;
+    p(x);
+
+    return 0;
+}

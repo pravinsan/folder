@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+
+int main()
+{
+   int x =0,y=0;
+   int squerebox = 0;
+   printf("Enter the squerebox : ");
+   scanf("%u",&squerebox);
+   
+   for(x=0;x<squerebox;++x)
+     {
+         for(y=0;y<squerebox;++y)
+           {
+               printf("q");
+           }
+           printf("\n");
+     }
+
+    return 0;
+}

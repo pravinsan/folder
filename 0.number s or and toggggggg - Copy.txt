@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+
+int main()
+{ int x=100;
+  float y;
+  for(int i=1;i<=x;i++)
+    {
+        if(i%10==0)
+          {
+              float x = (float)i;
+              y = x/2;
+              printf("\n%.2f",y+0.5);
+          }
+    }
+
+    return 0;
+}

@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+#include <string.h>
+
+void print_patten(const char *s)
+{
+   for(const char *first = s, *last = s + strlen(s); first<last; ++first,--last )
+     {
+         printf("%.*s\n", (int)(last - first),first);
+     }
+
+}
+int main(void)
+ {
+     const char *s = "pravinkumar";
+     
+     print_patten (s);  
+ }

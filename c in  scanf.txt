@@ -1,0 +1,29 @@
+
+#include <stdio.h>
+
+int main()
+{  int x = 150;
+   if(x>=35 && x<60)
+   {
+       printf("\033[1;34m Second Class \033[0m\n");
+     //printf("sceond class");
+   }
+   else if(x>=60 && x<=75)
+   {
+       printf("\033[1;34m first class \033[0m\n");
+       //printf("first class");
+   }
+   else if(x>=75 && x<=100)
+   {
+       //printf("distinction");
+       printf("\033[1;34m distinction \033[0m\n");
+   }
+   else
+   {
+      // printf("invalid mark");
+       printf("\033[1;34m invalid mark \033[0m\n");
+   }
+
+    return 0;
+}
+

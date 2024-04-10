@@ -1,0 +1,42 @@
+
+Conversation opened. 1 unread message. 
+
+Skip to content
+Using Gmail with screen readers
+Enable desktop notifications for Gmail.
+   OK  No, thanks
+3 of 27
+pravin kumar c language
+Inbox
+
+T Balaji <balaji250791@gmail.com>
+Attachments
+9 Jun 2023, 13:34 (1 day ago)
+to me
+
+
+7
+ Attachments
+  • Scanned by Gmail
+#include <stdio.h>
+#include <string.h>
+
+struct mystructur
+{
+    int Num;
+    char name;
+    char p[30];
+};
+
+int main()
+{
+  struct mystructur s1;
+  
+  strcpy(s1.p,"pravin kumar");
+  
+  printf("my name : %s",s1.p);
+
+    return 0;
+}
+c in stutre2txt.txt
+Displaying c in stutre2txt.txt.Previous

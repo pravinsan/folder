@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int x = 2022;
+     if(x%4==0)
+       {
+           printf("lep year");
+       }
+       else
+       {
+           printf("not lep year");
+       }
+
+    return 0;
+}

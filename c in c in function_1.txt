@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+void p(char name[],int age)
+  
+ {
+     printf("%s yor are %d year \n",name,age);
+ }
+
+int main()
+{
+    p("pravin",14);
+    p(" kumar",14);
+
+    return 0;
+}

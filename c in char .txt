@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+
+int main()
+{  char p;
+    printf("Enter the name :");
+    scanf("%c",&p);
+    printf("%c",p);
+    
+    
+
+    return 0;
+}

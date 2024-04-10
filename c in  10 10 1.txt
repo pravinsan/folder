@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+
+int main()
+{ int x,y,z;
+  z=10;
+  printf("Enter the height :");
+  scanf("%d",&x);
+  
+      for(y=1;y<=x;++y)
+       {
+           for(z=1;z<=y;++z){
+           printf("*");
+           }
+           printf("\n");
+       }
+        for(y=1;y<=x-1;++y)
+       {
+           for(z=1;z<=y;++z)
+          {
+           printf("*");
+           }
+           printf("\n");
+       }

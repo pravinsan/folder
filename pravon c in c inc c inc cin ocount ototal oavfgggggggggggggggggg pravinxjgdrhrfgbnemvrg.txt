@@ -1,0 +1,30 @@
+
+#include <stdio.h>
+
+int main()
+{ int number[] = {77,34,76,13,9};
+  int ecount,etotal,ocount,ototal;
+  float eavg,oavg;
+  for(int i=0;i<5;i++)
+    {
+        if(number[i]%2==0)
+          {
+              etotal+= number[i];
+              ecount++;
+              eavg = etotal/ecount;
+              printf("\n odd : %d",number[i]);
+          }
+          else
+          {
+              ototal+=number[i];
+              ocount++;
+              oavg =ototal/ocount;
+              printf("\n even: %d",number[i]);
+          }
+
+    }
+      printf("\n %d \n %d \n %lf ",ocount,ototal,oavg);
+      printf("\n %d \n %d \n %lf ",ecount,etotal,eavg);
+   
+    return 0;
+}

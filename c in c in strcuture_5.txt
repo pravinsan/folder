@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <string.h>
+
+struct mystructure 
+{
+    int num;
+    char letter;
+    char string[30];
+};
+
+int main()
+{
+   
+   struct mystructure s1 = {13,'a',"pravin"};
+   
+  struct mystructure s2;
+   
+   s2=s1;
+   
+   s2.num =14;
+   s2.letter = 'b';
+   strcpy(s2.string,"pravin kumar");
+   
+   printf("%d %c %s\n",s1.num,s1.letter,s1.string);
+   
+   printf("%d %c %s\n",s2.num,s2.letter,s2.string);
+   
+    return 0;
+}

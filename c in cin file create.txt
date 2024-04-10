@@ -1,0 +1,12 @@
+
+#include <stdio.h>
+
+int main()
+{
+    
+    FILE * fp;
+    fp = fopen("pravin.txt","a");
+   
+
+    return 0;
+}

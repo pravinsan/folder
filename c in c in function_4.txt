@@ -1,0 +1,12 @@
+#include <stdio.h>
+ 
+ int p(int x,int y)
+ {
+     return x + y;
+ }
+
+int main() 
+{
+  printf("the resalt is : %d",p(3,3));
+  return 0;
+}

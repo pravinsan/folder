@@ -1,0 +1,28 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int number[] ={2,5,5,4,4,1};
+  
+    int length = sizeof(number)/sizeof(number[0]);    
+        
+    printf("Enter the array :"); 
+    scanf("%d",&length);
+
+    for(int i = 0; i < length; i++) 
+      {    
+        for(int j = i + 1; j < length; j++)
+          {    
+            if(number[i] == number[j]) 
+             
+            printf("%d\n", number[j]);    
+          }    
+      }    
+     
+     
+       
+       
+
+    return 0;
+}

@@ -1,0 +1,40 @@
+
+#include <stdio.h>
+
+int main()
+{  int x= 60;
+  if(x>=35&&x<60)
+  {
+      printf("second class");
+    
+  }
+  else if(x>=60&&x<75)
+  
+  {
+      printf("first class");
+  }
+  else if(x>=75&&x<=100)
+  
+  {
+      printf("Distinction");
+  }
+  else
+  {
+      printf("invalid mark"); 
+#include <stdio.h>
+
+int main()
+{  int num = 10;
+   if(num==100)
+   
+{
+    printf("pass");
+}
+else
+{
+    printf("fail");
+}
+ 
+ 
+    return 0;
+}

@@ -1,0 +1,27 @@
+#include <stdio.h>
+struct mystructure
+{
+    int  myNum;
+    char myname;
+    
+};
+
+int main()
+{
+   struct mystructure s1;
+   struct mystructure s2;
+   
+   s1.myNum  = 13;
+   s2.myname = 'a';
+   
+   s2.myNum  = 14;
+   s2.myname ='b';
+
+   printf("s1.number : %d\n",s1.myNum);
+   printf("s1.myname : %c\n",s1.myname);
+   
+   printf("s2.number : %d\n",s2.myNum);
+   printf("s2.myname : %c\n",s2.myname);
+
+    return 0;
+}

@@ -1,0 +1,33 @@
+#include <string.h>
+#include <stdio.h>
+
+int main()
+{
+  char name[] = "pravin";
+
+   int i,j,o,lenth,k;
+   
+   lenth = strlen(name);
+   
+   printf("Name lenth  : %d",lenth);
+   
+   printf("\n");
+   
+   
+   for(i=0;i<=lenth;i++)
+     {
+         for(k=0;k<=lenth;k++)
+           {
+               printf(" ");
+           }
+           
+           k--;
+           
+         for(j=0;j<i;j++)
+           {
+               printf("%c ",name[j]);
+           }
+           printf("\n");
+     }
+    return 0;
+}

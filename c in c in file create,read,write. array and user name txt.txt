@@ -1,0 +1,33 @@
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char name[] = {"pravin.txt"};
+    
+    printf("Enter the name : ");
+    scanf("%s",name);
+    for(int i=0;i<strlen(name);i++)
+      {
+          if(name[1],"a");
+      }
+   FILE * t,* p;
+   
+   t = fopen("pravin.txt","a");
+   fprintf(t,"\nwelcome");
+   fclose(t);
+   
+  p = fopen("senthil.txt","r");
+  
+  char o[100];
+   
+   while(fgets(o,100,p))
+     //{
+         printf("%s",o);
+     //}
+     
+     fclose(p);
+
+    return 0;
+}

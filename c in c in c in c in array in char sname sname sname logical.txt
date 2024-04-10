@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char sname[2][10]={"bala","kumar"};
+     
+     for(int i=0;i<2;i++)
+       {
+           printf("%s\n",sname[i]);
+       }
+    
+    return 0;
+}

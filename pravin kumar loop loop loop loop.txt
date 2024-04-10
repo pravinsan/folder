@@ -1,0 +1,28 @@
+
+#include <stdio.h>
+
+int main()
+{ int y,z =0, oddcnt =0, evencnt =0,oavg=0, eavg =0;
+  for(int x =1 ;x<=13;++x)
+  if(x%2==0)
+  {
+      printf("\n%d even",x);
+      y=y+x;
+      evencnt++;
+  }
+  else
+  {
+      printf("\n%d odd",x);
+      z=z+x;
+      oddcnt++;
+  } 
+  
+  oavg = z/oddcnt ;
+  eavg = y/evencnt;
+  printf("\nthe number of even numbers %d the number of odd numbers %d",y,z);
+  printf("\noddaverage  : %d",oavg);
+  printf("\nevenaverage : %d",eavg);
+   
+
+    return 0;
+}

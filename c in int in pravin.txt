@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+
+int main()
+{  int a,b,c;
+   a,b,c = 10,20,30;
+   int z = a+b+c;
+    
+   printf("%d",a+b+c);
+   printf("\n%d",z);
+   
+
+    return 0;
+}

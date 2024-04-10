@@ -1,0 +1,28 @@
+
+#include <stdio.h>
+#include<string.h>
+
+int main()
+{
+   char sname[] = "pravin";
+   
+   printf("Enter the name : ");
+   scanf("%s",&sname);
+    int l=strlen(sname);
+    int k=l;
+  
+ for(int i=0;i<l;i++)
+ {
+     for(int m=k;m>=0;m--)
+     {
+         printf(" ");
+     }
+     k--;
+     for(int j=0;j<=i;j++)
+     {
+            printf("%c ",sname[j]);
+     }
+     printf("\n");
+ }
+    return 0;
+}

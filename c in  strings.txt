@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+
+int main()
+{
+    char p[] = "pravinkumar";
+    
+    scanf("%lu",sizeof (p));
+    printf("%lu",sizeof (p));
+    
+
+    return 0;
+}

@@ -1,0 +1,35 @@
+
+#include <stdio.h>
+
+int main()
+{ int n,c,k, p =1;
+  printf("Enter the number of rows :");
+  scanf("%d",&n);
+  p=n-1;
+  for(k=1; k<=n;k++)
+   {
+       for(c=1;c<=p;c++)
+       printf(" ");
+       
+  p--;
+      for(c=1;c<=2*k-1;c++)
+      printf("*");
+      printf("\n");
+   }
+   
+   p=1;
+   for(k=1;k<=n;k++)
+     {
+         for(c=1;c<=p;c++)
+         printf(" ");
+         
+  p++;  
+  
+        for(c=1;c<=2*(n-k)-1;c++)
+        printf("*");
+        printf("\n");
+     }
+     
+
+    return 0;
+}

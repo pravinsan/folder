@@ -1,0 +1,80 @@
+
+Conversation opened. 1 unread message.
+
+Skip to content
+Using Gmail with screen readers
+Enable desktop notifications for Gmail.
+   OK  No, thanks
+1 of 46
+C LANGUAGE
+Inbox
+
+pravin kumar
+Attachments
+16:37 (3 minutes ago)
+to me
+
+
+3
+ Attachments
+  • Scanned by Gmail
+#include <stdio.h>
+#include <conio.h>
+#include <time.h>
+int main()
+{
+   int a,qty,rate,total;
+   
+   printf("%s","\033[1;34m Please Enter The Items \033[1;0m \n");
+   printf("%s","\n 1.choclate \n 2.icecream \n 3.cold coffee \n 4.milk shake ");
+   printf("\n\t\t\t \033[1;31m Black Coffe Shop \033[1;0m ");
+   printf("\n\t\t\t___________________");
+   printf("\n");
+   printf("\n");
+   scanf("%d",&a);
+   
+   switch(a)
+   
+   {
+       case 1:
+       printf("\n choclate. \n enter the quantity :");
+       scanf("%d",&qty);
+       rate = 100;
+       total =qty * rate;
+       printf("\033[1;36m total amount : %d \033[1;0m",total);
+       printf("\n Thank you for shopping");
+       break;
+        
+       case 2:
+       printf("\n icecream. \n enter the quantity :");
+       scanf("%d",&qty);
+       rate =150;
+       total =qty * rate;
+       printf("\033[1;36m total amount : %d \033[1;0m",total);
+       printf("\n Thank you for shopping");
+       break;
+        
+       case 3:
+       printf("\n clod coffee. \n enter the quantity :");
+       scanf("%d",&qty);
+       rate =200;
+       total =qty * rate;
+       printf("\033[1;36m total amount : %d \033[1;0m",total);
+       printf("\n Thank you for shopping");
+       break;
+       
+       case 4:
+       printf("\n icecream. \n enter the quantity :");
+       scanf("%d",&qty);
+       rate =250;
+       total =qty * rate;
+       printf("\033[1;36m total amount : %d \033[1;0m",total);
+       printf("\n Thank you for shopping");
+       break;
+        
+    }
+   
+   return 0;
+}
+c in black coffee shop.txt
+Displaying c in calender2.txt.Next 

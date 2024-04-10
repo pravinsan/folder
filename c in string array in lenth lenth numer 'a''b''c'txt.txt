@@ -1,0 +1,11 @@
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+   char number[4] = {'A','B','C','D'};
+   printf("%s",number);
+
+    return 0;
+}
